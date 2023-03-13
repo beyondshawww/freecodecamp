@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>BeyondShaw Survey Form</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <h1 id="title">BeyondShaw Survey Form</h1>
+    <p id="description">Thank you for taking the time to help me improve my code</p>
+    <form id="survey-form">
+      <fieldset>
+      <label id="name-label" >Name: <input id="name" placeholder="name" type="text" required>
+      <label id="email-label">Email: <input type="email" id="email" placeholder="email" required>
+      <label id="number-label">Age: <input id="number" placeholder="age" type="number" min="10" max="120" required>
+      <label id="select-label">How did you know me?</label>
+        <select id="dropdown">
+          <option value="">(select one)</option>
+          <option value="1">Relatives</option>
+          <option value="2">Classmates</option>
+          <option value="3">Online Apps</option>
+          <option value="4">Other</option>
+        </select>
+      </fieldset>
+      <fieldset>
+        <label>Would you reckon me as a handsome guy?</label>
+        <label for="Of course!"><input value="11" id="Of course!" type="radio" name="choose" class="inline" /> Of course!</label>
+        <label for="Sure!"><input id="Sure!" value="12" type="radio" name="choose" class="inline" /> Sure!</label>
+        <label for="Definately!"><input id="Definately!" value="13" type="radio" name="choose" class="inline" /> Definately!</label>
+      </fieldset>
+      <fieldset>
+        <p>Bonus track</p>
+      <label for="terms-and-conditions">
+          <input id="terms-and-conditions" 
+value="22"          
+type="checkbox" required name="terms-and-conditions" class="inline" /> Select if you are handsome!</a>
+        </label>
+<input id="terms-and-conditions" 
+value="23"          
+type="checkbox" required name="terms-and-conditions" class="inline" /> Select if you are marvelous!</a>
+        </label>        
+      </fieldset>
+      <fieldset>
+         <label for="bio">Things you want to tell me:
+          <textarea value="24" id="bio" name="bio" rows="3" cols="30" placeholder="I like coding on the beach..."></textarea>
+        </label>
+      </fieldset>
+      <input type="submit" id="submit" value="Submit" />
+    </form>
+  </body>
+</html>
