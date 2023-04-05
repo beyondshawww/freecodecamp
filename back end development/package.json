@@ -1,0 +1,22 @@
+{
+  "name": "fcc-learn-npm-package-json",
+  "author":"beyondshaw",
+  "description": "A project that is used for training coding.",
+  "keywords": [ "freecodecamp", "training", "coding" ],
+  "license": "MIT",
+  "version": "1.1.0",
+  "dependencies": {
+    "express": "^4.14.0"
+  },
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": "8.11.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://boilerplate-npm.beyondshaw.repl.co"
+  }
+}
